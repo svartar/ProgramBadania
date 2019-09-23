@@ -1,3 +1,7 @@
+/**
+ * This class with EditPatientWindow.fxml represents window, that allows you to edit patient data
+ */
+
 package application;
 
 import java.io.IOException;

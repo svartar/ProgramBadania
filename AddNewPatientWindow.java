@@ -1,3 +1,6 @@
+/**
+ * This class with AddNewPatientWindow.fxml represents window, that allow you to add a new patient
+ */
 package application;
 
 import javafx.fxml.FXML;

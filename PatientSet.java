@@ -1,3 +1,6 @@
+/**
+ * This class represents list, that stores patients
+ */
 package application;
 
 import java.util.HashMap;

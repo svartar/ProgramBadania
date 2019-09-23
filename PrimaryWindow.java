@@ -1,3 +1,6 @@
+/**
+ * This class with PrimaryWindow.fxml represents a main window.
+ */
 package application;
 
 import java.io.IOException;

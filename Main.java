@@ -1,3 +1,7 @@
+/**
+ * It's a main class that have main method and that launching program
+ */
+
 package application;
 	
 import javafx.application.Application;

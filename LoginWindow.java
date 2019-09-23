@@ -1,3 +1,8 @@
+/**
+ * This class reprezents the first window, where You can log in to the program
+ * login: admin
+ * password: admin
+ */
 package application;
 
 import javafx.event.ActionEvent;
@@ -30,22 +35,19 @@ public class LoginWindow {
 	public void run() { 
 		
 		primaryStage.setTitle("Witaj - zaloguj siê");
-		
-		// Tworzymy scene, czyli layout
+
 		GridPane grid = new GridPane();
 		grid.setAlignment(Pos.CENTER);
 		grid.setHgap(10);
 		grid.setVgap(10);
-		grid.setPadding(new Insets(25, 25, 25, 25)); // Tworzy prostokat i pozwala nam stworzyc odstepy 
+		grid.setPadding(new Insets(25, 25, 25, 25));
 
-		// Doczepiamy scene do podium
 		Scene scene = new Scene(grid, 400, 275);
 		primaryStage.setScene(scene);
-		
-		// Tworzymy rozne elementy ktore dodajemy do sceny
+
 		Text scenetitle = new Text("Witaj");
 		scenetitle.setFont(Font.font("Tahoma", FontWeight.NORMAL, 20));
-		// Wpisujemy: co mamy dodac, index kolumny, index wiersza, ile kolumn obiekt powinien zajac, ile wierszy obiekt powinien zajac
+
 		grid.add(scenetitle, 0, 0, 2, 1); 
 
 		Label userName = new Label("Nazwa u¿ytkownika:");
@@ -81,8 +83,8 @@ public class LoginWindow {
                 		Stage stage = new Stage();
            			 	stage.setTitle("G³ówne okno");
         				Scene scene = new Scene(root);
-        				
-        				// Jezeli chcemy uzyc stylow CSS to musimy je dodac
+
+        				//If You want to add CSS Styles, You have to add them using the next verse
         				//scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
         				
         				stage.setScene(scene);
@@ -96,7 +98,7 @@ public class LoginWindow {
             	} else {
                 	
                     actiontarget.setFill(Color.FIREBRICK);
-                    actiontarget.setText("Z³y login lub has³o");
+                    actiontarget.setText("Nieprawid³owy login lub has³o");
             	}
             }
         });

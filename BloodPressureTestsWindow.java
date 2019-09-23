@@ -1,3 +1,6 @@
+/**
+ * This class with BloodPressureTestsWindow.fxml represents window where program stores and shows information about blood Pressure tests of different patients
+ */
 package application;
 
 import java.util.List;

@@ -1,3 +1,6 @@
+/**
+ * This class represents a single test of blood pressure
+ */
 package application;
 
 public class BloodPressure {

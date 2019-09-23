@@ -1,3 +1,6 @@
+/**
+ * This class represents a chart showing the results of blood pressure tests
+ */
 package application;
 
 import java.util.List;

@@ -1,3 +1,6 @@
+/**
+ * This class represents a single patient
+ */
 package application;
 
 import java.util.ArrayList;
